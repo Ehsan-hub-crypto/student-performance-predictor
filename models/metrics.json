@@ -1,0 +1,35 @@
+{
+  "model_name": "Random Forest Regressor",
+  "features": [
+    "study_hours",
+    "attendance",
+    "previous_marks",
+    "assignment_completion",
+    "sleep_hours"
+  ],
+  "metrics": {
+    "Random Forest": {
+      "mae": 3.6973586010118855,
+      "rmse": 4.769681659803006,
+      "r2": 0.8640437306816054
+    },
+    "Linear Regression": {
+      "mae": 4.213655359325923,
+      "rmse": 5.864607478916555,
+      "r2": 0.7944590543024004
+    }
+  },
+  "feature_importances": {
+    "study_hours": 0.06397728920661477,
+    "attendance": 0.039998674472336224,
+    "previous_marks": 0.6779727143737548,
+    "assignment_completion": 0.033157946292001216,
+    "sleep_hours": 0.18489337565529296
+  },
+  "n_train": 1600,
+  "n_test": 400,
+  "trained_at": "2026-11-16T04:19:58+00:00",
+  "data_file": "student_data.csv",
+  "baseline_mae": 9.458720000000001,
+  "data_source": "synthetic"
+}

@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Virtual environments
+venv/
+.venv/
+env/
+# Secrets & local data
+.env
+*.env
+.streamlit/secrets.toml
+data/predictions.db
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

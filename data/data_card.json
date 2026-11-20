@@ -1,0 +1,10 @@
+{
+  "source": "synthetic",
+  "generator": "src/generate_data.py",
+  "seed": 42,
+  "rows": 2000,
+  "created_at": "2026-11-15T19:08:35+00:00",
+  "sha256": "822dba6626ba5dc99fda17c7e5e5665b994dc740943ffb9b5eb74db04398530b",
+  "description": "Synthetic demo data generated from a hand-written formula plus random noise. It contains no real students and its relationships are assumptions, not findings.",
+  "formula": "final_score = 8 + 0.50*previous_marks + 0.12*attendance + 0.10*assignment_completion + 14*(1 - exp(-study_hours/3)) - 0.8*(sleep_hours - 7.5)^2 + Normal(0, 4), clipped to 0-100"
+}
